@@ -1,6 +1,6 @@
 FROM centos:7
 
-MAINTAINER "JoAnn Brereton <joann.brereton@mlb.com>
+MAINTAINER "JoAnn Brereton <joann.brereton@gmail.com>
 
 RUN yum  -y install wget unzip git
 
