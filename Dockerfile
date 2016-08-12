@@ -2,11 +2,6 @@ FROM centos:7
 
 MAINTAINER "JoAnn Brereton <joann.brereton@mlb.com>
 
-ENV DOWNLOAD_DIR /tmp/downloads
-ENV JBOSS_HOME  /usr/local/jboss-eap-6.4
-ENV JBOSS_STANDALONE_CONF /usr/local/jboss-eap-6.4/standalone/configuration
-ENV JBOSS_CONFIG standalone-full.xml
-
 RUN yum  -y install wget unzip git
 
 RUN cd /opt/ && \
